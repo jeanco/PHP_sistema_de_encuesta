@@ -1,0 +1,361 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	color:#000;
+	font-family:"Arial Black", sans-serif;
+	
+}
+header{
+	background: none repeat scroll 0 0 #F3F3F3;
+	margin:0px auto;
+	max-width:100%;
+	padding:5px 0px;
+	text-align:center;
+}
+
+
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 600px;
+	height: 40px;
+	
+}
+nav li {
+	display: inline;
+	
+}
+nav a {
+	color:rgb(0,162,232);
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	
+}
+
+
+#enlaces:hover{
+ 	
+	background:rgb(0,162,232);
+	-ms-transition:all 1s ease-out;
+	-moz-transition:all 1s ease-out;
+	-o-transition:all 1s ease-out;
+	-webkit-transition:all 1s ease-out;
+	transition:all 1s ease-out;
+}
+#enlaces{
+    ms-transition:all 1s ease-in;
+	-moz-transition:all 1 ease-in;
+	-o-	-transition:all 1s ease-in;
+	-webkit-transition:all 1s ease-in;
+	transition:all 1s ease-in;
+}
+
+a:hover{
+	color: #FFF;
+}
+ li:last-child a {
+	border-right: 0;
+}
+nav a:active {
+    
+	background:rgb(0,162,232);
+}
+ a#pull {
+	display: none;
+}
+#pull{
+	color: rgb(216,216,216);
+}
+#pull:hover{
+	color: #FFF;
+}
+#slides{
+	
+	margin: 50px;
+}
+
+
+@media(min-width: 1080px){
+		nav a {
+	
+	width: 95px;
+	
+    } 
+	#menu {
+	background: none repeat scroll 0 0 #F3F3F3;
+	height: 60px;
+
+}
+#enlaces{
+	padding: 10px;
+}
+#enlaces:hover{	
+
+	
+}
+#logo{
+	margin: 5px;
+    background: url(../images/encuesta1.png) no-repeat;
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+	position: absolute;
+	left: 30px;
+	top: 0px;
+		
+}
+#logo:hover{
+	background: url(../images/encuesta20.png)no-repeat;
+}
+#logo:active{
+	background: url(index.php)no-repeat;
+}
+
+.flexslider{
+	max-width: 80%;
+	
+}
+
+}
+@media(max-width: 1024px){
+	nav a {
+	
+	width: 95px;
+	
+}
+nav {
+	
+	width: 100%;
+}
+#enlaces{
+	   font-size: 13px;
+	  
+    }
+#logo{
+	
+    background: url(../images/encuesta3.png) no-repeat;
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+	position: absolute;
+	left: 30px;
+	top: 0px;
+		
+}
+#logo:hover{
+	background: url(../images/encuesta40.png)no-repeat;
+}
+
+}
+
+@media(max-width: 800px){
+    
+}
+@media(max-width: 768px){
+  nav {
+	
+	width: 100%;
+
+}
+nav a {
+	
+	width: 80px;
+	
+}
+#enlaces{
+	   font-size: 12px;
+	  
+    }
+#logo{
+	
+   
+	width: 130px;
+		
+}
+
+}
+@media(max-width: 685px){
+nav {
+	
+	width: 100%;
+
+}
+
+nav a {
+	
+	width: 75px;
+	
+	
+}
+
+#logo{
+	
+   
+	left: 0px;
+	top: 0px;
+		
+}
+#enlaces{
+	font-size: 11px;
+	padding: 0px;
+}
+}
+@media(max-width: 600px){
+   
+     nav a {
+	
+
+	width: 63px;
+	
+}
+ #enlaces{
+	   font-size: 11px;
+	  
+    }
+#logo{
+	
+   
+	width: 130px;
+		
+}
+}
+@media(max-width: 568px){
+	#menu { 
+		border-bottom: 0;
+  		height: auto;
+  		background: #fff;
+  		  	}
+  	nav ul {
+  		width: 100%;
+  		display: block;
+  		height: auto;
+  		display: none;
+		
+  	}
+  	
+  	
+  	nav a {
+	  	text-align: center;
+	  	width: 100%;
+	  	text-indent: 25px;
+  	}
+ 
+	nav li a {
+		border-bottom: 1px solid #576979;
+	}
+	
+	nav #pull {
+		display: block;
+		background: #00a2e8 url(../images/encuesta3.png)no-repeat;
+		width: 100%;
+		position: relative;
+	}
+	nav #pull:hover {
+
+		display: block;
+		background: #00a2e8 url(../images/encuesta40.png)no-repeat;
+		width: 100%;
+		position: relative;
+	}
+	#pull:after {
+		content:"";
+		background: url(../images/nav-icon.png) no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+	
+	#logo{
+display: none;
+}
+
+	}
+	
+@media(max-width: 480px){
+
+}
+@media(max-width: 380px){
+
+}
+@media(max-width: 320px){
+
+
+	
+}
+@media(max-width: 240px){
+
+}
+
+
+
+
+/* Media query */
+/*@media(min-width: 1080px){
+    header{
+    	max-width: 80%;
+    }
+    nav,footer{
+    	max-width: 80%;
+    }
+    section#contenedor{
+    	max-width: 80%;
+    }
+}
+@media(max-width: 1024px){
+	
+}
+@media(max-width: 800px){
+	
+}
+@media(max-width: 768px){
+	
+}
+@media(max-width: 685px){
+	
+}
+@media(max-width: 600px){
+	section#principal,aside{
+		margin: 5px;
+		display: block;
+		width: 95%
+	}
+}
+@media(max-width: 568px){
+	section#principal,aside{
+		margin: 5px;
+		display: block;
+		width: 98%
+	}
+}
+@media(max-width: 480px){
+	section#principal,aside{
+		margin: 5px;
+		display: block;
+		width: 95%
+	}
+}
+@media(max-width: 380px){
+	
+}
+@media(max-width: 320px){
+	section#principal,aside{
+		margin: 5px;
+		display: block;
+		width: 92%
+	}
+}
+@media(max-width: 240px){
+	section#principal,aside{
+		margin: 5px;
+		display: block;
+		width: 90%
+	}
+}
